@@ -1,27 +1,31 @@
-# OrangeTask
+Trebuie sa:
+[+] respecti designul primit (design.png)
+[+] validezi adresa de email
+[+] validezi parola (lungime de minim 8 caractere, minim 1 litera mare, minim 1 numar si minim 1 simbol)
+[+] validezi data de nastere (minim 18 ani)
+[+] cand se apasa pe butonul "REGISTER" tot formularul este validat:
+    - invalid => date_invalide.png
+    - valid => date_valide.png
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1.
+-- Background
 
-## Development server
+https://www.pexels.com/photo/woman-working-at-home-with-her-laptop-4050296/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+--- Culori
 
-## Code scaffolding
+Accent: #FF7922
+Gray Light: #D0D0D0
+Text: #031527
+Rsou: #DE0303 (pt eroare)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+--- Degular (font)
 
-## Build
+<link rel="stylesheet" href="https://use.typekit.net/vrw5ppj.css">
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+sau
 
-## Running unit tests
+<style>
+  @import url("https://use.typekit.net/vrw5ppj.css");
+</style>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+font-family: degular, sans-serif;
